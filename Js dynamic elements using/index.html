@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+
+    <style>
+
+        body{
+            border-radius: 3px;
+            text-align: justify;
+        }
+        #kapsayici, #kapsayici2{
+            background-color: rgb(224, 193, 171);
+            width: 360px;
+            border: 3px solid grey;
+            margin: auto;
+        }
+
+        .gorevler{
+            display: block;
+            width: 300px;
+            height: 50px;
+            background-color: rgb(197, 197, 109);
+            text-align: left;
+            text-wrap: wrap;
+            border: 3px solid black;
+            box-sizing: border-box;
+            padding-left:5px;
+            padding-top: 15px;
+            margin-left: 30px;
+        }
+
+        .bitenler{
+            display: block;
+            width: 300px;
+            height: 50px;
+            background-color: rgb(197, 197, 109);
+            text-align: left;
+            text-decoration: line-through;
+            text-wrap: wrap;
+            border: 3px solid grey;
+            box-sizing: border-box;
+            padding-left:5px;
+            padding-top: 15px;
+            margin-left: 30px;
+        }
+
+        .baslik{
+            display: block;
+            width: 300px;
+            height: 20px;
+            background-color: rgb(197, 244, 197);
+            text-align: center;
+            margin-left: 30px;
+        }
+
+        #addButton{
+            margin-left: 580px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div id = "kapsayici">
+            <div id = "todo" class = "baslik">Yapılacaklar</div>
+        </div>
+
+        <div id = "kapsayici2">
+            <div id = "done" class="baslik">Yapılanlar</div>
+        </div>
+
+        <button id = "addButton">Görev Ekle</button>
+    
+    <script src="main.js"></script>
+</body>
+</html>
