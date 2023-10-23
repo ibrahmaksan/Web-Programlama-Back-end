@@ -1,2 +1,2 @@
 # JavaScript-Projects-to-Summarize
-I do Js projects to summarize the course
+I publish projects minor and major on my back-end programming path.
